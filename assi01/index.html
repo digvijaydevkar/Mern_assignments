@@ -1,0 +1,165 @@
+html>
+<head>
+    <title>Sunbeam Registration Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+
+        td {
+            padding: 6px;
+            vertical-align: top;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 220px;
+            padding: 4px;
+        }
+
+        textarea {
+            height: 80px;
+        }
+
+        .logo {
+            width: 350px;
+        }
+
+        iframe {
+            width: 520px;
+            height: 290px;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Top Logo -->
+    <div class="container">
+        <img src="sunbeam_img.png" class="logo">
+        <h2>Sunbeam Registration Form</h2>
+
+        <!-- Table layout -->
+        <table>
+            <tr>
+                <!-- Left Video -->
+                <td>
+                    <iframe src="https://www.youtube.com/embed/r2jOZzFjyXQ?si=dW1M5DsM5NbOoZ6Z">
+                        <iframe 
+    src="https://www.youtube.com/embed/r2jOZzFjyXQ?si=dW1M5DsM5NbOoZ6Z" 
+    width="520" 
+    height="300" 
+    allowfullscreen>
+</iframe>
+
+                    </iframe>
+                </td>
+
+                <!-- Right Form -->
+                <td>
+                    <form>
+
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text"></td>
+                            </tr>
+
+                            <tr>
+                                <td>BirthDate:</td>
+                                <td><input type="date"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Email:</td>
+                                <td><input type="email"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Password:</td>
+                                <td><input type="password"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Address:</td>
+                                <td>
+                                    <textarea>
+Sunbeam Institute of IT
+'Anuda Chambers', 203 
+Shaniwar Peth, Near 
+Gujar Hospital, Karad-415110 (Maharashtra)
+                                    </textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Gender:</td>
+                                <td>
+                                    <input type="radio" name="gender"> Male
+                                    <input type="radio" name="gender"> Female
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Upload Photo:</td>
+                                <td><input type="file"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Select your Course:</td>
+                                <td>
+                                    <select>
+                                        <option>Select course</option>
+                                        <option>DAC</option>
+                                        <option>DBDA</option>
+                                        <option>DITISS</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Skill Set:</td>
+                                <td>
+                                    <input type="checkbox"> Java
+                                    <input type="checkbox"> CPP
+                                    <input type="checkbox"> OS
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <button type="submit">Register</button>
+                                    <button type="reset">Clear</button>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
